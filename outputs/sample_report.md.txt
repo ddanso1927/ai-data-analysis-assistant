@@ -1,0 +1,115 @@
+Here’s how I approached the analysis before generating the report:
+
+* Loaded the dataset and checked columns and structure
+* Used **Amount** as revenue (no alternative revenue field provided)
+* Aggregated totals and averages using groupby functions
+* Identified top-performing products by summing revenue per **Sub-Category**
+* Broke down results by **Region** for deeper insights
+* Double-checked calculations for consistency
+
+---
+
+# 📊 STRUCTURED REPORT
+
+## 1. SUMMARY
+
+* **Total Revenue:** 431,502
+* **Average Revenue:** 287.67
+* **Top-performing Product:** Printers
+
+### Total Revenue by Region
+
+* Greater Accra: 108,604
+* Ashanti: 105,140
+* Bono East: 25,649
+* Northern: 22,531
+* Savannah: 22,359
+* Upper East: 21,149
+* Western North: 21,058
+* Western: 17,179
+* Eastern: 15,058
+* Volta: 14,086
+* North East: 13,459
+* Oti: 12,943
+* Central: 10,829
+* Bono: 8,666
+* Ahafo: 6,087
+* Upper West: 6,705
+
+### Average Revenue by Region
+
+* Savannah: 328.81
+* Greater Accra: 327.12
+* Ashanti: 309.24
+* Northern: 304.47
+* North East: 299.09
+* Bono: 298.83
+* Bono East: 298.24
+* Upper East: 285.80
+* Eastern: 278.85
+* Western: 248.97
+* Western North: 242.05
+* Ahafo: 243.48
+* Volta: 223.59
+* Central: 221.00
+* Oti: 208.76
+* Upper West: 155.93
+
+### Top-performing Product by Region
+
+* Ahafo: Tables
+* Ashanti: Printers
+* Bono: Phones
+* Bono East: Saree
+* Central: Saree
+* Eastern: Accessories
+* Greater Accra: Bookcases
+* North East: Trousers
+* Northern: Tables
+* Oti: Printers
+* Savannah: Printers
+* Upper East: Electronic Games
+* Upper West: Tables
+* Volta: Saree
+* Western: Chairs
+* Western North: Bookcases
+
+---
+
+## 2. KEY INSIGHTS
+
+* Revenue is heavily concentrated in **Greater Accra and Ashanti**, which together contribute nearly half of total sales
+* **Printers** dominate overall, appearing as the top product in multiple regions
+* Higher average transaction values are seen in:
+
+  * Savannah
+  * Greater Accra
+  * Ashanti
+* Some regions (e.g., Upper West, Oti) show significantly lower average revenue, indicating smaller transaction sizes
+* Product preferences vary strongly by region, suggesting localized demand patterns
+
+---
+
+## 3. PROBLEMS
+
+* **Underperforming Regions:**
+
+  * Upper West
+  * Ahafo
+  * Bono
+* **Low average revenue** in regions like Upper West and Oti suggests weaker purchasing power or smaller order sizes
+* **Revenue imbalance:** Over-reliance on a few regions (Greater Accra, Ashanti) increases business risk
+* Some regions show **limited product dominance**, which may indicate weak product-market fit
+
+---
+
+## 4. RECOMMENDATIONS
+
+* **Expand high-performing products** (e.g., Printers) into more regions where they are not yet dominant
+* **Target underperforming regions** with promotions or pricing strategies to increase transaction volume
+* **Diversify regional revenue streams** to reduce dependence on Greater Accra and Ashanti
+* **Leverage regional preferences** by tailoring product offerings (e.g., Saree in Bono East, Bookcases in Greater Accra)
+* **Increase average order value** through bundling or upselling in low-performing regions
+
+---
+
