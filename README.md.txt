@@ -269,14 +269,22 @@ Here’s how I approached the analysis before generating the report:
 
 ```
 ai-data-analysis-assistant/
-│
-├── README.md
+
+└── outputs/
+│      │── Output1.png
+│      └── Output2.png
+│      └── Output3.png
+│      └── Output4.png
+│      └── Output5.png
+│      └── sample_report.md 
+├── prompts/
+│     └── analysis_prompt.txt
 ├── sample-data/
 │   └── sales_data.csv
-├── prompts/
-│   └── analysis_prompt.txt
-└── outputs/
-    └── sample_report.md
+├── README.md
+
+
+d
 ```
 
 ---
